@@ -6,12 +6,15 @@ import { useState } from 'react';
 
 const myDivStyle = (generateColor) => css`
   background-color: ${generateColor ? generateColor : null};
-  align-items: center;
+  border-radius: 15px;
+  border: 2px solid white;
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
   transition-duration: 1s;
   box-sizing: border-box;
   text-align: center;
   display: grid;
+  text-align: center;
+  justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0px 0px;
@@ -21,6 +24,8 @@ const myDivStyle = (generateColor) => css`
     '. . .';
   width: 20em;
   height: 20em;
+  margin-left: auto;
+  margin-right: auto;
   position: sticky;
   top: 0;
   left: 40%;
