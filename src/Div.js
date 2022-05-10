@@ -46,7 +46,7 @@ position: relative;
 user-select: none;
 -webkit-user-select: none;
 touch-action: manipulation;
-}`;
+`;
 
 export default function Div() {
   const [hue, setHue] = useState('');
