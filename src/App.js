@@ -1,4 +1,4 @@
-import './App.css';
+import './App.js';
 import Div from './Div.js';
 
 export default function App() {
