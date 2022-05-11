@@ -9,7 +9,7 @@ export default function App() {
       <br />
       <h2>Click the cute button to generate a random color</h2>
       <br />
-      <be />
+      <br />
       <Div />
       <br />
       <br />
