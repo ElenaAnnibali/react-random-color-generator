@@ -36,7 +36,6 @@ const myButtonStyle = css`
   font-size: 16px;
   letter-spacing: 2px;
   text-decoration: none;
-  text-transform: uppercase;
   color: #000;
   cursor: pointer;
   border: 3px solid;
