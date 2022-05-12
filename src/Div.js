@@ -68,7 +68,6 @@ export default function Div() {
         Generate
       </button>
       <br />
-      <br />
       <h2>Otherwise choose the Hue and the Luminosity</h2>
       <h4>and don't forget to click that cute button!</h4>
       <br />
@@ -89,7 +88,6 @@ export default function Div() {
           onChange={(event) => setLuminosity(event.currentTarget.value)}
         />
       </label>
-      <br />
       <br />
       <br />
       <div css={myDivStyle(generateColor)}>
