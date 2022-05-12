@@ -3,7 +3,7 @@ import Div from './Div.js';
 
 export default function App() {
   return (
-    <body className="App">
+    <div className="App">
       <h4>A modest version of</h4>
       <h1>Random Color Generator</h1>
       <br />
@@ -11,6 +11,6 @@ export default function App() {
       <Div />
       <br />
       <br />
-    </body>
+    </div>
   );
 }
